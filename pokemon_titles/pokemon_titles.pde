@@ -32,7 +32,7 @@ void draw () {
   for (int y=0; y<20; y++) {
     for (int x=0; x<17; x=x+1) {
       select = map[y][x];
-      image(tiles[select], 100+(32*x)+100, 100+(32*y), 32, 32);
+      image(tiles[select],0+(32*x)+100,0+(32*y), 32, 32);
     }
   }
 }
